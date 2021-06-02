@@ -161,7 +161,7 @@ body:hover .title h1 {
     }
     
     .title {
-    position: block;
+    position: absolute;
     top: 0;
     bottom: 0;
     color: var(--white);
