@@ -45,7 +45,6 @@ body {
   font-size: 3vw;
   width: 100%;
   height: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
   animation: fadein 5s;
@@ -162,14 +161,11 @@ body:hover .title h1 {
     }
     
     .title {
-    position: fixed;
+    position: block;
     top: 0;
     bottom: 0;
     color: var(--white);
     font-size: 3vw;
-    width: 100%;
-    height: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
     animation: fadein 5s;
