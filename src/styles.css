@@ -25,6 +25,25 @@ body {
   font-family: 'Bebas Neue', cursive;
 }
 
+.logo {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  color: var(--white);
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadein 5s;
+  z-index: 1;
+  user-select: none;
+}
+
+.logo img{
+  width: 30%;
+}
+
 .title {
   position: fixed;
   top: 0;
@@ -39,10 +58,6 @@ body {
   animation: fadein 5s;
   z-index: 1;
   user-select: none;
-}
-
-.title img{
-  width: 20%;
 }
 
 .title h1 {
