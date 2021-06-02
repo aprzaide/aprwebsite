@@ -26,18 +26,7 @@ body {
 }
 
 .logo {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  color: var(--white);
-  width: 30%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: fadein 5s;
-  z-index: 1;
-  user-select: none;
+  display: block;
 }
 
 .logo img{
