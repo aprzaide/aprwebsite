@@ -41,6 +41,10 @@ body {
   user-select: none;
 }
 
+.logo img{
+  width: 20%;
+}
+
 .title h1 {
   text-shadow: 3px 4px var(--blue3), 6px 7px var(--blue2), 9px 10px var(--blue1);
   transition: text-shadow 0.3s ease-out;
